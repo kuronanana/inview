@@ -1,0 +1,284 @@
+html,
+body {
+	width: 100%;
+	height: 100%;
+	padding: 0px;
+	margin: 0px;
+	background-color: #d1d1d1;
+	border-top: solid 20px rgb(236, 199, 164);
+	box-sizing: border-box;
+	
+}
+
+/* .title p {
+	text-align: center;
+	padding: 10px;
+	margin: 20px;
+	font-size: 25px;
+} */
+
+
+
+.form {
+
+	width: 450px;
+	min-height: 300px;
+	height: 300px;
+	border-radius: 5px;
+	margin: 2% auto;
+	box-shadow: 0 9px 50px hsla(20, 67%, 75%, 0.31);
+	padding: 2%;
+	background-color: #eee;
+	/* background-image: linear-gradient(#e3fdf5, #FFE6FA); */
+	/* background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),
+		url("../../media/examples/lizard.png"); */
+}
+
+/* form Container */
+form .con {
+	display: -webkit-flex;
+	display: flex;
+
+	-webkit-justify-content: space-around;
+	justify-content: space-around;
+
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+
+	margin: 0 auto;
+}
+
+/* report form */
+.form_report {
+
+	width: 450px;
+	min-height: 200px;
+	height: auto;
+	border-radius: 5px;
+	margin: 2% auto;
+	box-shadow: 0 9px 50px hsla(20, 67%, 75%, 0.31);
+	padding: 2%;
+	background-color: #eee;
+	/* background-image: linear-gradient(#e3fdf5, #FFE6FA); */
+	/* background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),
+		url("../../media/examples/lizard.png"); */
+}
+
+/* form Container */
+.form_report .con {
+	display: -webkit-flex;
+	display: flex;
+
+	-webkit-justify-content: space-around;
+	justify-content: space-around;
+
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+
+	margin: 0 auto;
+}
+
+/* 
+h3 {
+	margin-left: auto;
+	margin-right: auto;
+
+} */
+
+table {
+
+	width: 450px;
+	height: 200px;
+	box-sizing: border-box;
+	/* float: left;
+	display: flex; */
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	border-radius: 6px;
+	/* box-shadow: 5px 0px 10px hsla(240, 50%, 20%, .6); */
+}
+
+table a {
+	text-decoration: none;
+	display: block;
+	color: #000
+}
+
+.main {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.main2 {
+	
+	margin-left: auto;
+	margin-right: auto;
+	width: 700px;
+
+}
+
+/* .update{
+	text-align: center;
+	font-size: 16px;
+} */
+
+.top {
+	background-color: rgb(236, 199, 164);
+	text-align: center;
+
+	font-size: 16px;
+	color: #000;
+}
+
+
+
+.mid {
+	background-color: #eee;
+	text-align: center;
+	width: auto;
+	font-size: 16px;
+	color: #000;
+	text-decoration: none;
+}
+
+font {
+	text-align: center;
+
+}
+
+input[class="form-input"] {
+	width: 300px;
+	height: 30px;
+
+
+	font-size: 16px;
+	font-family: 'Abel', sans-serif;
+	color: #5E6472;
+
+	/* 去掉點擊時出現的邊框 */
+	outline: none;
+	/* 邊框 */
+	border: none;
+	/* 邊框變圓角 */
+	border-radius: 5px 5px 5px 5px;
+	/* 轉場效果 */
+	transition: 0.2s linear;
+	/* 指標移動到目標時顯示的樣子 */
+	cursor: pointer;
+
+}
+
+input:focus {
+	transform: translateX(-2px);
+	border-radius: 5px;
+}
+
+button {
+	display: inline-block;
+	color: #252537;
+
+	width: 200px;
+	height: 50px;
+
+	padding: 5px;
+	background: #fff;
+	border-radius: 5px;
+
+	font-size: 16px;
+
+	outline: none;
+	border: none;
+
+	/* 指標移動到目標時顯示的樣子 */
+	cursor: pointer;
+
+	text-align: center;
+	transition: all 0.2s linear;
+
+	margin: 7% auto;
+	letter-spacing: 0.05em;
+}
+
+/* .submit{
+	margin-left: auto;
+	margin-right: auto;
+	
+} */
+
+.margintop{
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.center p{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.back {
+	background: rgb(236, 199, 164);
+}
+
+.other {
+	text-align: center;
+}
+
+.other a {
+	display: block;
+	text-decoration: none;
+	color: #000;
+}
+
+/* .con {
+	display: flex;
+	flex-direction: column;
+} */
+
+/* form .con {
+	display: -webkit-flex;
+	display: flex;
+
+	-webkit-justify-content: space-around;
+	justify-content: space-around;
+
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+
+	margin: 0 auto;
+} */
+
+.other2 {
+	/* margin-left: auto;
+	margin-right: auto; */
+	display: block;
+	text-align: center;
+	float: left;
+}
+
+.other2 .btn1 {
+	margin: 20px;
+
+}
+
+.other2 a {
+	text-decoration: none;
+	color: #000;
+}
+
+
+
+/* footer */
+
+footer {
+	position: fixed;
+	padding-left: 15px;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background: #000;
+	color: #fff;
+}

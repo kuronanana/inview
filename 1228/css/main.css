@@ -1,0 +1,188 @@
+html,
+body {
+	width: 100%;
+	height: 100%;
+	padding: 0px;
+	margin: 0px;
+	background-color: #d1d1d1;
+	border-top: solid 20px rgb(236, 199, 164);
+	box-sizing: border-box;
+	overflow: hidden;
+}
+
+.title p {
+	text-align: center;
+	padding: 10px;
+	margin: 20px;
+	font-size: 25px;
+	/* font-family: "微軟正黑體"; */
+
+}
+
+.main {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.center h1{
+	text-align: center;
+}
+
+h3 {
+	text-align: center;
+
+}
+
+table {
+
+	width: 600px;
+	height: 200px;
+	box-sizing: border-box;
+	/* float: left;
+	display: flex; */
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	border-radius: 6px;
+	/* box-shadow: 5px 0px 10px hsla(240, 50%, 20%, .6); */
+}
+
+table a {
+	text-decoration: none;
+	display: block;
+	color: #000
+}
+
+.top {
+	background-color: rgb(236, 199, 164);
+	text-align: center;
+
+	font-size: 16px;
+	color: #000;
+}
+
+.mid {
+	background-color: #eee;
+	text-align: center;
+
+	font-size: 16px;
+	color: #000;
+	text-decoration: none;
+}
+
+font {
+	text-align: center;
+
+}
+
+input[class="form-input"] {
+	width: 100px;
+	height: 30px;
+
+
+	font-size: 16px;
+	font-family: 'Abel', sans-serif;
+	color: #5E6472;
+
+	/* 去掉點擊時出現的邊框 */
+	outline: none;
+	/* 邊框 */
+	border: none;
+	/* 邊框變圓角 */
+	border-radius: 0px 5px 5px 0px;
+	/* 轉場效果 */
+	transition: 0.2s linear;
+	/* 指標移動到目標時顯示的樣子 */
+	cursor: pointer;
+
+}
+
+input[class="txt-input"] {
+	width: 50px;
+	border-radius: 5px;
+}
+
+input:focus {
+	transform: translateX(-2px);
+	border-radius: 5px;
+}
+
+button {
+	display: inline-block;
+	color: #252537;
+
+	width: 200px;
+	height: 50px;
+
+	padding: 5px;
+	background: #fff;
+	border-radius: 5px;
+
+	font-size: 16px;
+
+	outline: none;
+	border: none;
+
+	/* 指標移動到目標時顯示的樣子 */
+	cursor: pointer;
+
+	text-align: center;
+	transition: all 0.2s linear;
+
+	margin: 7% auto;
+	letter-spacing: 0.05em;
+}
+
+.back {
+	background: rgb(236, 199, 164);
+}
+
+.other {
+	text-align: center;
+}
+
+.other a {
+	display: block;
+	text-decoration: none;
+	color: #000;
+}
+
+.con {
+	display: flex;
+	flex-direction: column;
+	/* margin-left: auto;
+	margin-right: auto; */
+}
+
+.other2 {
+	/* margin-left: auto;
+	margin-right: auto; */
+	display: block;
+	text-align: center;
+	float: left;
+}
+
+.other2 .btn1 {
+	margin: 20px;
+
+}
+
+.other2 a {
+	text-decoration: none;
+	color: #000;
+}
+
+
+
+/* footer */
+
+footer {
+	position: fixed;
+	padding-left: 15px;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background: #000;
+	color: #fff;
+}

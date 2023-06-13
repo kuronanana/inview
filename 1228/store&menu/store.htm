@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/other.css" rel="stylesheet" type="text/css">
+        <title>新增店家</title>
+    </head>
+
+    <body>
+        <div class="form">
+        <form method="post" action="../store&menu/store.php" enctype="multipart/form-data">
+            <div class="con">  
+                <table class="main">
+                    <tr>
+                        <td class="mid">店名：</td>
+                        <td class="mid"><input class = "form-input" type="text" name="store"></td>
+                    </tr>
+                    <tr>
+                        <td class="mid">電話：</td>
+                        <td class="mid"><input class = "form-input" type="text" name="tel"></td>
+                    </tr>
+                    <tr>
+                        <td class="mid">地址：</td>
+                        <td class="mid"><input class = "form-input" type="text" name="address"></td>
+                    </tr>
+                    <tr>
+                        <td class="mid">經緯度：</td>
+                        <td class="mid"><input class = "form-input" type="text" name="position" /></td>
+                    </tr>
+                    
+                </table>
+            </div>
+            <div class="other">
+                <button type="submit" class="submit">送出</button>
+            </div>
+        </form>
+        </div>
+        <div class="other">
+            <button class="back"><a href="../main/home.php">回首頁</button>
+        </div>
+    </body>
+
+</html>

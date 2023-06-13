@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/other.css" rel="stylesheet" type="text/css">
+        <title>新增菜單</title>
+    </head>
+
+    <body>
+        <div class="form">
+            <div class="con">
+            <form method="post" action="../store&menu/menu.php" enctype="multipart/form-data">
+                    <table class="main">
+                        <tr>
+                            <td class="mid">店名：</td>
+                            <td class="mid"><input class="form-input" type="text" name="from"></td>
+                        </tr>
+                        <tr>
+                            <td class="mid">菜名：</td>
+                            <td class="mid"><input class="form-input" type="text" name="menu"></td>
+                        </tr>
+                        <tr>
+                            <td class="mid">價格：</td>
+                            <td class="mid"><input class="form-input" type="text" name="price"></td>
+                        </tr>
+                    </table>
+                        <div class="other">
+                            <button type="submit" class="submit">送出
+                        </div> 
+            
+        
+        </form>
+        </div>
+        </div>
+        <div class="other">
+            <button class="back"><a href="../main/home.php">回首頁</button>
+        </div>
+    </body>
+
+</html>

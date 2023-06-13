@@ -1,0 +1,59 @@
+body{
+    color: #FFFFFF;
+    font-family: "標楷體";
+    font-size: 14px;
+    line-height: 1.4;
+    background-color: #000;
+    background-image: url(../BF108017_EX3/img/1.jpg);
+    background-position: center 0%;
+    background-size: 90% auto;
+    background-repeat: no-repeat;
+    -webkit-text-size-adjust:none;
+}
+.reservation{
+    width: 118px;
+    height: 44px;
+    margin-left: 60%;
+    color: #FFFFFF;
+    line-height: 44px;
+    text-align: center;
+    background-color: rgba(93,122, 24, 0.70);
+
+}
+
+a:link, a:visited{
+    color: #000; text-decoration: none;
+}
+a:active, a:hover{
+    color: #FFFFFF; text-decoration: none;
+}
+
+header h1{
+    width: 80%;
+    height: 44px;
+    padding: 8px;
+    margin-top: 140px;
+    text-align: right;
+    background-color: rgba(93,122, 24, 0.70);
+
+}
+
+nav{
+    width:90%;
+    margin-top :20px;
+    float: right;
+}
+
+nav li{
+    border: 1px solid #FFFFFF;
+    margin-bottom: 14px;    
+
+}
+
+footer{
+    font-size: 12px;
+    text-align: center;
+    margin: 30px auto 0 auto;
+    clear: both;
+
+}
