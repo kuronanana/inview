@@ -22,7 +22,7 @@ session_unset();
 <body>
 	<h4>登出中...</h4>
 	<?php
-	echo '<meta http-equiv=REFRESH CONTENT=1;url=index.php>';
+	echo '<meta http-equiv=REFRESH CONTENT=1;url=index.html>';
 	//也可執行 header("Refresh: 2; url=index.php"); 
 	//也可執行 header('Location:index.php');
 	?>

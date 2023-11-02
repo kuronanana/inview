@@ -41,7 +41,7 @@ include("db.php");
   ?>
   <h4>登入失敗!</h4>
   <?php
-    echo '<meta http-equiv=REFRESH CONTENT=3;url=index.php>';
+    echo '<meta http-equiv=REFRESH CONTENT=3;url=index.html>';
   }
   ?>
 </body>

@@ -36,4 +36,4 @@ echo  "</table>";
 
 mysqli_close($conn);
 
-echo '<a href = "../main/index.php">返回登入畫面</a>';
+echo '<a href = "../main/index.html">返回登入畫面</a>';

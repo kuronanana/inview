@@ -52,7 +52,7 @@ if (isset($_SESSION['update'])) {
 	<h4>您無權限觀看此頁面!</h4>
 	<?php
 
-	echo '<meta http-equiv=REFRESH CONTENT=2;url=../main/index.php>';
+	echo '<meta http-equiv=REFRESH CONTENT=2;url=../main/index.html>';
 }
 ?>
 </body>
